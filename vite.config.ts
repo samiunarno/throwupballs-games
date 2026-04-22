@@ -25,7 +25,9 @@ export default defineConfig(({ mode }) => {
       hmr: process.env.DISABLE_HMR !== 'true',
 
       // ✅ Allow your Render domain
-      allowedHosts: ['throwupballs-games.onrender.com'],
+      allowedHosts: ['throwupballs-games.onrender.com',
+        'goodly-rea-furthermore.ngrok-free.dev'
+      ],
     },
   };
 });
